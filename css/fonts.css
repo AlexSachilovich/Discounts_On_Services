@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'AlbertSans';
+    font-weight: 400;
+    src: url('../fonts/AlbertSans/static/AlbertSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AlbertSans';
+    font-weight: 700;
+    src: url('../fonts/AlbertSans/static/AlbertSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Manrope';
+    font-weight: 600;
+    src: url('../fonts/Manrope/static/Manrope-SemiBold.ttf') format('truetype');
+}
+

@@ -1,0 +1,14 @@
+@import url('../libs/normalize.css');
+@import url('../libs/font-awesome.css');
+@import url('./reset.css');
+@import url('./global.css');
+@import url('./fonts.css');
+
+@import url('./components/header.css');
+@import url('./components/content-start.css');
+@import url('./components/content-subscriptions.css');
+
+
+* {
+    box-sizing: border-box;
+}

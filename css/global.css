@@ -1,0 +1,12 @@
+:root {
+    --blue: #1749B3;
+    --background: #ECF3FB;
+}
+
+body {
+    background: var(--background);
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
