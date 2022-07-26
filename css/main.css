@@ -5,12 +5,13 @@
 @import url('./fonts.css');
 
 @import url('./components/header.css');
-@import url('./components/content-start.css');
-@import url('./components/content-subscriptions.css');
+@import url('./components/main/start.css');
+@import url('./components/main/subscriptions.css');
 @import url('./components/main/start.css');
 @import url('./components/main/subscriptions.css');
 @import url('./components/main/steps.css');
 @import url('./components/main/about.css');
+@import url('./components/main/faq.css');
 
 
 * {
