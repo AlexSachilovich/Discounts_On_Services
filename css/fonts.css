@@ -6,13 +6,40 @@
 
 @font-face {
     font-family: 'AlbertSans';
+    font-weight: 500;
+    src: url('../fonts/AlbertSans/static/AlbertSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AlbertSans';
+    font-weight: 600;
+    src: url('../fonts/AlbertSans/static/AlbertSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AlbertSans';
     font-weight: 700;
     src: url('../fonts/AlbertSans/static/AlbertSans-Bold.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Manrope';
-    font-weight: 600;
-    src: url('../fonts/Manrope/static/Manrope-SemiBold.ttf') format('truetype');
+    font-family: 'AlbertSans';
+    font-weight: 800;
+    src: url('../fonts/AlbertSans/static/AlbertSans-ExtraBold.ttf') format('truetype');
 }
+
+
+@font-face {
+    font-family: 'Manrope';
+    font-weight: 700;
+    src: url('../fonts/Manrope/static/Manrope-Bold.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Manrope';
+    font-weight: 800;
+    src: url('../fonts/Manrope/static/Manrope-ExtraBold.ttf') format('truetype');
+}
+
 

@@ -2,6 +2,7 @@
     height: 60px;
     background: #FFFFFF;
     max-width: 100%;
+    margin-bottom: 60px;
 }
 
 .header-inner {
@@ -27,7 +28,7 @@
 }
 .logo__link {
     font-family: 'Manrope';
-    font-weight: 600;
+    font-weight: 800;
     color: #171717;
     font-size: 16px;
     text-decoration: none;
@@ -62,8 +63,9 @@
 } 
 
 .menu__link:hover {
-    font-weight: bold;
+    transition: 0.5s;
     font-size: 17px;
+    color: var(--blue);
 }
 
 .menu__link-dropdown {
@@ -75,6 +77,11 @@
     content: url('/images/header/bird.svg');
     left: 115px;
     top: 1px;
+}
+
+.menu__link-dropdown:hover:after {
+    transition: 0.3s;
+    transform: translateY(3px) rotate(-90deg);
 }
 
 .menu-language {
@@ -98,7 +105,6 @@
 
 .menu-language__link--dropdown:hover {
     transition: all 0.5s ease;
-    border: var(--blue) 1px solid;
     border-radius: 6px;
 }
 
@@ -107,6 +113,11 @@
     content: url('/images/header/bird.svg');
     right: -15px;
     top: 9px;
+}
+
+.menu-language__link--dropdown:hover::after {
+    transition: 0.4s;
+    transform: translateY(3px) rotate(-180deg);
 }
 
 .menu__list li:hover .sub-menu__list {
@@ -124,7 +135,7 @@
     background-color: #FFFFFF;
     padding: 27px 24px 10px 24px;
     transition: .5s;
-    top: 65px;
+    top: 45px;
     left: -24px;
 }
 
