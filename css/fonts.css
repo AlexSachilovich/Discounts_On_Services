@@ -1,5 +1,11 @@
 @font-face {
     font-family: 'AlbertSans';
+    font-weight: 200;
+    src: url('../fonts/AlbertSans/static/AlbertSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AlbertSans';
     font-weight: 400;
     src: url('../fonts/AlbertSans/static/AlbertSans-Regular.ttf') format('truetype');
 }

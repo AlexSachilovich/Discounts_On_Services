@@ -1,0 +1,196 @@
+.footer {
+  background: var(--blue);
+}
+
+.container--footer {
+  background: var(--blue);
+  min-height: 280px;
+}
+
+.wrapper__footer-top {
+  display: flex;
+}
+
+.logo__footer {
+  display: flex;
+  align-items: center;
+  margin: 40px 0 0 0;
+}
+
+.logo__img__footer {
+  margin-right: 13px;
+  align-items: center;
+  width: 60px;
+  height: 61px;
+}
+
+.logo__link--footer {
+  color: white;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer__logo__span {
+  display: inline;
+  color: white;
+  opacity: 0.8;
+}
+
+.footer__text {
+  margin-top: 26.5px;
+}
+
+.wrapper__footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__subscriptions {
+  margin-top: 40px;
+}
+
+.menu__siteNavigation {
+  margin-top: 40px;
+}
+
+.menu__subscriptions__link {
+  font-family: "AlbertSans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 12px;
+  cursor: pointer;
+  opacity: 0.8;
+  position: relative;
+}
+
+.menu__subscriptions__link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 1.5px;
+  background-color: white;
+  width: 0%;
+}
+
+.menu__subscriptions__link:hover::before {
+  width: 100%;
+  transition: width 0.35s;
+}
+
+.menu__subscriptions__link--main {
+  font-family: "AlbertSans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 12px;
+  cursor: pointer;
+  opacity: 0.8;
+  position: relative;
+  opacity: 1;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.footer__links-title {
+  margin-bottom: 30px;
+}
+
+.fotter-contacts__networks {
+  display: flex;
+  margin: 43px 0 21px 0;
+}
+
+.fotter-contacts__networks__item--telegram {
+  margin-left: 23px;
+}
+
+.fotter-contacts__menu-language {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  position: relative;
+  margin-right: 20px;
+}
+
+.footer-contacts__menu-language__link--dropdown::after {
+  position: absolute;
+  content: url("/images/footer/footer_bird.png");
+  left: 82px;
+  top: -4px;
+}
+
+.footer-contacts__menu-language__link {
+  font-family: "AlbertSans";
+  color: #171717;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer-contacts__menu-language__link--dropdown {
+  font-family: "AlbertSans";
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer-contacts__sub-menu-language__list {
+  border-radius: 16px;
+  position: absolute;
+  background-color: #ffffff;
+  padding: 24px 20px;
+  transition: 0.5s;
+  right: -90px;
+  top: 180px;
+}
+
+.footer-contacts__sub-menu-language__list--active {
+  transition: 1s;
+  right: -90px;
+  top: -169.5px;
+}
+
+.footer-contacts__sub-menu-language__item {
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.footer-contacts__sub-menu-language__item--last {
+  margin-bottom: 0;
+}
+
+.wrapper__footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0 12px 0;
+}
+
+.span__footer {
+  font-family: "AlbertSans";
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 150%;
+  opacity: 0.5;
+}

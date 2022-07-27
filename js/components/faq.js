@@ -6,5 +6,3 @@ buttonFaq.addEventListener('click', openPopUp);
 function openPopUp() {
     popUpFaq.classList.toggle('faq__block__active--open')
 }
-
-
