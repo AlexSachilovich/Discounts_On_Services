@@ -1,0 +1,346 @@
+.wrapper__tariffs {
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+
+.wrapper__plan {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 140px;
+  margin-bottom: 48px;
+}
+
+.plan__title {
+  font-family: "AlbertSans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 140%;
+  color: #171717;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.plan__subtitle {
+  font-family: "AlbertSans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #333333;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 52px;
+}
+
+.month {
+  display: flex;
+  justify-content: center;
+  height: 63px;
+}
+
+.button__6m {
+  width: 180px;
+  height: 61px;
+  border-radius: 12px 0px 0px 12px;
+  font-family: "AlbertSans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.button__6m--notActive {
+  width: 180px;
+  height: 61px;
+  border-radius: 12px 0px 0px 12px;
+  box-sizing: border-box;
+  border: #1749b3 1px solid;
+  background: var(--background);
+  color: #030303;
+  font-style: normal;
+  font-family: "AlbertSans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.button__12m {
+  width: 180px;
+  height: 61px;
+  border-radius: 0px 12px 12px 0px;
+  box-sizing: border-box;
+  border: #1749b3 1px solid;
+  background: var(--background);
+  color: #030303;
+  font-style: normal;
+  font-family: "AlbertSans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.button__12m--active {
+  width: 180px;
+  height: 61px;
+  border-radius: 0px 12px 12px 0px;
+  font-family: "AlbertSans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+  background: #1749b3;
+  transition: 0.4s;
+}
+
+.button__12m:hover {
+  background: #4b84fd;
+  transition: 0.4s;
+  color: #ffffff;
+  border: none;
+}
+
+.tariffs {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* BASIC */
+.wrapper__tariffs__block_basic {
+  display: flex;
+  position: relative;
+  transition: 0.4s;
+}
+
+.wrapper__tariffs__block_basic:hover {
+  transform: scale(1.05, 1.05);
+  transition: 0.4s;
+}
+
+.tariffs__block_netflix_basic_6m--active {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_basic_12m--not-active {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_basic_12m {
+  position: absolute;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_basic_12m--active {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_basic_6m--not-active {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.tariffs__block {
+  width: 389px;
+  height: 532px;
+  background: #ffffff;
+  box-shadow: 0px 12px 28px rgba(244, 245, 245, 0.2);
+  border-radius: 32px;
+}
+
+.tariffs__title {
+  font-family: "AlbertSans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 140%;
+  text-align: center;
+  color: #0f0f0f;
+  padding: 60px 151px 32px 151px;
+  height: 137px;
+  border-bottom: 1px solid #dbdbdb;
+  margin-bottom: 36px;
+}
+
+.tariffs__item {
+  position: relative;
+  font-family: "AlbertSans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #5c5c5c;
+  padding: 0 42px 24px 84px;
+}
+
+.tariffs__item::before {
+  position: absolute;
+  content: url("/images/index_netflix/tariffs_li_bird.png");
+  transform: translate(-40px, -2px);
+}
+
+.tariffs__price {
+  position: relative;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 130%;
+  color: #0f0f0f;
+  text-align: center;
+  margin: 40px 0 16px 0;
+}
+
+.tariffs__price::before {
+  position: absolute;
+  content: url("/images/index_netflix/$.png");
+  transform: translate(-25px, -2px);
+}
+
+.wrapper__button__tariffs {
+  display: flex;
+  justify-content: center;
+}
+
+.button__tariffs {
+  width: 309px;
+  height: 54px;
+  font-family: "AlbertSans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #ffffff;
+  background: #333333;
+}
+
+/* BASIC */
+
+/* STANDART */
+
+.wrapper__tariffs__block_standart {
+  display: flex;
+  position: relative;
+  transition: 0.4s;
+}
+
+.wrapper__tariffs__block_standart:hover {
+  transform: scale(1.05, 1.05);
+  transition: 0.4s;
+}
+
+.tariffs__block_netflix_standart_6m--active {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_standart_12m--not-active {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_standart_12m {
+  position: absolute;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_standart_12m--active {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_standart_6m--not-active {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+/* STANDART */
+
+/* PREMIUM */
+
+.wrapper__tariffs__block_premium {
+  display: flex;
+  position: relative;
+  transition: 0.4s;
+}
+
+.wrapper__tariffs__block_premium:hover {
+  transform: scale(1.05, 1.05);
+  transition: 0.4s;
+}
+
+.tariffs__block_netflix_premium_6m--active {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_premium_12m--not-active {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_premium_12m {
+  position: absolute;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_premium_12m--active {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_premium_6m--not-active {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+/* PREMIUM */
+
+.wrapper__tariffs__block {
+  display: flex;
+  position: relative;
+  transition: 0.4s;
+}
+
+.wrapper__tariffs__block:hover {
+  transform: scale(1.05, 1.05);
+  transition: 0.4s;
+}
+
+.tariffs__block_netflix_standart_6m--active {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_standart_12m--not-active {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_standart_12m {
+  position: absolute;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_standart_12m--active {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_standart_6m--not-active {
+  opacity: 0;
+  transition: 0.2s;
+}

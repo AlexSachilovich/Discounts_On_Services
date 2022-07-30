@@ -1,0 +1,63 @@
+.wrapper__plan {
+  margin-bottom: 0;
+}
+
+.tariffs__youtube {
+  justify-content: center;
+}
+
+.wrapper__tariffs__youtube {
+  margin-top: 0;
+}
+
+.wrapper__tariffs__block_standart {
+  display: flex;
+  position: relative;
+  transition: 0.4s;
+}
+
+.wrapper__tariffs__block_standart:hover {
+  transform: scale(1.05, 1.05);
+  transition: 0.4s;
+}
+
+.tariffs__block_youtube_standart_6m--active {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.tariffs__block_youtube_standart_12m--not-active {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.tariffs__block_youtube_standart_12m {
+  position: absolute;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.tariffs__block_youtube_standart_12m--active {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.tariffs__block_youtube_standart_6m--not-active {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.tariffs__list--youtube-music {
+  height: 145px;
+}
+
+.tariffs__list--youtube-premium {
+  height: 145px;
+}
+
+.wrapper__tariffs__block_standart--youtube-music {
+  margin-right: 8px;
+}
+.wrapper__tariffs__block_premium--youtube-premium {
+  margin-left: 8px;
+}
