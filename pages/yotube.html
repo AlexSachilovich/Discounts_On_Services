@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/main.css" />
-    <title>Netflix</title>
+    <title>Youtube</title>
   </head>
 
   <body>
@@ -33,13 +33,15 @@
                   >
                   <ul class="sub-menu__list">
                     <li class="sub-menu__item">
-                      <a class="sub-menu__link" href="#">Netflix</a>
-                    </li>
-                    <li class="sub-menu__item">
                       <a
                         class="sub-menu__link"
-                        href="/pages/yotube.html"
+                        href="/pages/netflix.html"
                         target="_blank"
+                        >Netflix</a
+                      >
+                    </li>
+                    <li class="sub-menu__item">
+                      <a class="sub-menu__link" href="#" target="_blank"
                         >Youtube Premium</a
                       >
                     </li>
@@ -128,68 +130,29 @@
       </header>
       <div class="container">
         <main class="main">
-          <div class="wrapper__plan">
+          <div class="wrapper__plan wrapper__plan__youtube">
             <div class="plan">
-              <div class="plan__title"><h1>Choose a Netflix Plan</h1></div>
+              <div class="plan__title"><h1>YouTube Premium</h1></div>
               <div class="plan__subtitle">
-                <p>Listen without limits at a bargain price</p>
-              </div>
-              <div class="month">
-                <button class="button button__6m">6 months</button>
-                <button class="button button__12m">12 months</button>
+                <p>Select the subscription type for a period of 12 months:</p>
               </div>
             </div>
           </div>
-          <div class="wrapper__tariffs">
-            <div class="tariffs">
-              <div class="wrapper__tariffs__block_basic">
-                <div
-                  class="tariffs__block tariffs__block_netflix_basic_6m tariffs__block_netflix_basic_6m--active"
-                >
-                  <div class="tariffs__title">Basic</div>
-                  <div class="tariffs__list">
-                    <ul>
-                      <li class="tariffs__item">Ad-free music listening</li>
-                      <li class="tariffs__item">
-                        Play anywhere - even offline
-                      </li>
-                      <li class="tariffs__item">On-demand playback</li>
-                    </ul>
-                  </div>
-                  <div class="tariffs__price">45</div>
-                  <div class="wrapper__button__tariffs">
-                    <button class="button button__tariffs">Get started</button>
-                  </div>
-                </div>
-                <div class="tariffs__block tariffs__block_netflix_basic_12m">
-                  <div class="tariffs__title">Basic</div>
-                  <div class="tariffs__list">
-                    <ul>
-                      <li class="tariffs__item">Ad-free music listening</li>
-                      <li class="tariffs__item">
-                        Play anywhere - even offline
-                      </li>
-                      <li class="tariffs__item">On-demand playback</li>
-                    </ul>
-                  </div>
-                  <div class="tariffs__price">80</div>
-                  <div class="wrapper__button__tariffs">
-                    <button class="button button__tariffs">Get started</button>
-                  </div>
-                </div>
-              </div>
-              <div class="wrapper__tariffs__block_standart">
+          <div class="wrapper__tariffs wrapper__tariffs__youtube">
+            <div class="tariffs tariffs__youtube">
+              <div
+                class="wrapper__tariffs__block_standart wrapper__tariffs__block_standart--youtube-music"
+              >
                 <div
                   class="tariffs__block tariffs__block_netflix_standart_6m tariffs__block_netflix_standart_6m--active"
                 >
-                  <div class="tariffs__title">Standart</div>
-                  <div class="tariffs__list">
+                  <div class="tariffs__title">Music</div>
+                  <div class="tariffs__list tariffs__list--youtube-music">
                     <ul>
-                      <li class="tariffs__item">Ad-free music listening</li>
                       <li class="tariffs__item">
-                        Play anywhere - even offline
+                        Listen to music without ads, in the background and
+                        offline
                       </li>
-                      <li class="tariffs__item">On-demand playback</li>
                     </ul>
                   </div>
                   <div class="tariffs__price">60</div>
@@ -197,54 +160,23 @@
                     <button class="button button__tariffs">Get started</button>
                   </div>
                 </div>
-                <div class="tariffs__block tariffs__block_netflix_standart_12m">
-                  <div class="tariffs__title">Standart</div>
-                  <div class="tariffs__list">
-                    <ul>
-                      <li class="tariffs__item">Ad-free music listening</li>
-                      <li class="tariffs__item">
-                        Play anywhere - even offline
-                      </li>
-                      <li class="tariffs__item">On-demand playback</li>
-                    </ul>
-                  </div>
-                  <div class="tariffs__price">105</div>
-                  <div class="wrapper__button__tariffs">
-                    <button class="button button__tariffs">Get started</button>
-                  </div>
-                </div>
               </div>
-              <div class="wrapper__tariffs__block_premium">
+              <div
+                class="wrapper__tariffs__block_premium wrapper__tariffs__block_premium--youtube-premium"
+              >
                 <div
                   class="tariffs__block tariffs__block_netflix_premium_6m tariffs__block_netflix_premium_6m--active"
                 >
                   <div class="tariffs__title">Premium</div>
-                  <div class="tariffs__list">
+                  <div class="tariffs__list tariffs__list--youtube-premium">
                     <ul>
-                      <li class="tariffs__item">Ad-free music listening</li>
                       <li class="tariffs__item">
-                        Play anywhere - even offline
+                        YouTube and YouTube Music without ads, in the background
+                        and offline
                       </li>
-                      <li class="tariffs__item">On-demand playback</li>
                     </ul>
                   </div>
                   <div class="tariffs__price">80</div>
-                  <div class="wrapper__button__tariffs">
-                    <button class="button button__tariffs">Get started</button>
-                  </div>
-                </div>
-                <div class="tariffs__block tariffs__block_netflix_premium_12m">
-                  <div class="tariffs__title">Premium</div>
-                  <div class="tariffs__list">
-                    <ul>
-                      <li class="tariffs__item">Ad-free music listening</li>
-                      <li class="tariffs__item">
-                        Play anywhere - even offline
-                      </li>
-                      <li class="tariffs__item">On-demand playback</li>
-                    </ul>
-                  </div>
-                  <div class="tariffs__price">135</div>
                   <div class="wrapper__button__tariffs">
                     <button class="button button__tariffs">Get started</button>
                   </div>

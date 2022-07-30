@@ -1,3 +1,8 @@
+.wrapper__tariffs {
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+
 .wrapper__plan {
   margin: 0 auto;
   display: flex;
@@ -103,37 +108,44 @@
 }
 
 .tariffs {
-  border: red 1px solid;
+  display: flex;
+  justify-content: space-between;
 }
 
+/* BASIC */
 .wrapper__tariffs__block_basic {
-  border: green 1px solid;
   display: flex;
   position: relative;
+  transition: 0.4s;
 }
 
-.tariffs__block_netflix_6m--active {
+.wrapper__tariffs__block_basic:hover {
+  transform: scale(1.05, 1.05);
+  transition: 0.4s;
+}
+
+.tariffs__block_netflix_basic_6m--active {
   opacity: 1;
   transition: 0.2s;
 }
 
-.tariffs__block_netflix_12m--not-active {
+.tariffs__block_netflix_basic_12m--not-active {
   opacity: 0;
   transition: 0.2s;
 }
 
-.tariffs__block_netflix_12m {
+.tariffs__block_netflix_basic_12m {
   position: absolute;
   opacity: 0;
   transition: 0.2s;
 }
 
-.tariffs__block_netflix_12m--active {
+.tariffs__block_netflix_basic_12m--active {
   opacity: 1;
   transition: 0.2s;
 }
 
-.tariffs__block_netflix_6m--not-active {
+.tariffs__block_netflix_basic_6m--not-active {
   opacity: 0;
   transition: 0.2s;
 }
@@ -209,4 +221,126 @@
   font-size: 18px;
   line-height: 130%;
   color: #ffffff;
+  background: #333333;
+}
+
+/* BASIC */
+
+/* STANDART */
+
+.wrapper__tariffs__block_standart {
+  display: flex;
+  position: relative;
+  transition: 0.4s;
+}
+
+.wrapper__tariffs__block_standart:hover {
+  transform: scale(1.05, 1.05);
+  transition: 0.4s;
+}
+
+.tariffs__block_netflix_standart_6m--active {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_standart_12m--not-active {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_standart_12m {
+  position: absolute;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_standart_12m--active {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_standart_6m--not-active {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+/* STANDART */
+
+/* PREMIUM */
+
+.wrapper__tariffs__block_premium {
+  display: flex;
+  position: relative;
+  transition: 0.4s;
+}
+
+.wrapper__tariffs__block_premium:hover {
+  transform: scale(1.05, 1.05);
+  transition: 0.4s;
+}
+
+.tariffs__block_netflix_premium_6m--active {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_premium_12m--not-active {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_premium_12m {
+  position: absolute;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_premium_12m--active {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_premium_6m--not-active {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+/* PREMIUM */
+
+.wrapper__tariffs__block {
+  display: flex;
+  position: relative;
+  transition: 0.4s;
+}
+
+.wrapper__tariffs__block:hover {
+  transform: scale(1.05, 1.05);
+  transition: 0.4s;
+}
+
+.tariffs__block_netflix_standart_6m--active {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_standart_12m--not-active {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_standart_12m {
+  position: absolute;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_standart_12m--active {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.tariffs__block_netflix_standart_6m--not-active {
+  opacity: 0;
+  transition: 0.2s;
 }

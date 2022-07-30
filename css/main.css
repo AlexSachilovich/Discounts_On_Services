@@ -11,8 +11,10 @@
 @import url("./components/index/main/steps.css");
 @import url("./components/index/main/about.css");
 @import url("./components/index/main/faq.css");
-@import url("./components/index/footer.css");
+@import url("/css/footer.css");
 @import url("/css/components/netflix.css/main.css");
+@import url("./components/youtube/youtube.css");
+@import url("/css/components/spotify/spotify.css");
 
 * {
   box-sizing: border-box;
