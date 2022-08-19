@@ -126,7 +126,7 @@
                   </ul>
                 </div>
                 <div class="authorization">
-                  <button class="button authorization__button">Support</button>
+                  <button class="button authorization__button">Log in</button>
                 </div>
               </div>
             </aside>
@@ -172,7 +172,7 @@
                 <div
                   class="tariffs__block tariffs__block_netflix_premium_6m tariffs__block_netflix_premium_6m--active"
                 >
-                  <div class="tariffs__title">Premium</div>
+                  <div class="tariffs__title tariffs__title-p">Premium</div>
                   <div class="tariffs__list tariffs__list--youtube-premium">
                     <ul>
                       <li class="tariffs__item">
@@ -210,7 +210,7 @@
             </div>
           </div>
           <div class="faq__wrapper">
-            <div class="title faq__title">FAQ</div>
+            <div class="title faq__title"><a name="faq">FAQ</a></div>
             <div class="wrapper__faq__block">
               <div class="faq__block">
                 <span class="span faq__span"
@@ -243,7 +243,7 @@
                 <span class="span faq__span"
                   >After the purchase, can I exchange a password email for the
                   Netflix account?</span
-                ><button class="button__faq">
+                ><button class="button__faq button__faq-2">
                   <img
                     class="button__faq__img"
                     src="/images/main/faq_bird.png"
@@ -251,7 +251,7 @@
                   />
                 </button>
               </div>
-              <div class="faq__block faq__block__active">
+              <div class="faq__block faq__block__active-2">
                 <span class="span faq__span--open"
                   >Indeed, the subscription is legal and official to Netflix and
                   there is no fear of disconnection, so you can change your
@@ -265,7 +265,7 @@
                 <span class="span faq__span"
                   >Is it possible to add a phone number to recover the
                   password?</span
-                ><button class="button__faq">
+                ><button class="button__faq button__faq-3">
                   <img
                     class="button__faq__img"
                     src="/images/main/faq_bird.png"
@@ -273,7 +273,7 @@
                   />
                 </button>
               </div>
-              <div class="faq__block faq__block__active">
+              <div class="faq__block faq__block__active-3">
                 <span class="span faq__span--open"
                   >Yes, as with a regular Netflix account, you can add a cell
                   phone number to recover the password in case you forgot
@@ -286,7 +286,7 @@
                 <span class="span faq__span"
                   >How soon will I receive the account information I
                   ordered?</span
-                ><button class="button__faq">
+                ><button class="button__faq button__faq-4">
                   <img
                     class="button__faq__img"
                     src="/images/main/faq_bird.png"
@@ -294,7 +294,7 @@
                   />
                 </button>
               </div>
-              <div class="faq__block faq__block__active">
+              <div class="faq__block faq__block__active-4">
                 <span class="span faq__span--open"
                   >Subscription details will be received by you after a maximum
                   of 24 hours from the moment of payment.</span
@@ -304,7 +304,7 @@
             <div class="wrapper__faq__block">
               <div class="faq__block">
                 <span class="span faq__span">How to pay?</span
-                ><button class="button__faq">
+                ><button class="button__faq button__faq-5">
                   <img
                     class="button__faq__img"
                     src="/images/main/faq_bird.png"
@@ -312,7 +312,7 @@
                   />
                 </button>
               </div>
-              <div class="faq__block faq__block__active">
+              <div class="faq__block faq__block__active-5">
                 <span class="span faq__span--open"
                   >The payment options we currently have: , PayPal,
                   Bitcoin</span
@@ -320,7 +320,31 @@
               </div>
             </div>
             <div class="wrapper__support__button">
-              <button class="button support__button">Support</button>
+              <form
+                action="https://t.me/DiscountsOnServices_bot"
+                target="_blank"
+              >
+                <button class="button support__button">Support</button>
+              </form>
+            </div>
+            <div class="additional-subscription">
+              <div class="additional-subscription__text">
+                <div class="additional-subscription__title">
+                  <span class="span additional-subscription__title__span"
+                    >Request for an additional subscription that was not found
+                    here</span
+                  >
+                </div>
+                <div class="additional-subscription__subtitle">
+                  <span class="span additional-subscription__subtitle__span"
+                    >Disney, Amazon Prime, Microsoft Office, Microsoft
+                    Windows</span
+                  >
+                </div>
+              </div>
+              <div class="wrapper__request__button">
+                <button class="button request__button">Request</button>
+              </div>
             </div>
           </div>
         </main>
@@ -467,6 +491,28 @@
           </div>
         </div>
       </footer>
+      <div class="popup">
+        <div class="popup__body">
+            <div class="popup__overlay"></div>
+            <div class="popup__content">
+                <div class="popup__title">Log in</div>
+                <div class="popup__note" ><span class="popup__span">New user?</span><a href="#" class="popup__link">Create an account</a></div>
+                <form action="#" class="popup__form" ><div class="popup__email"><p>Email Adress</p>
+                    <input class="popup__input" placeholder="Enter your e-mail" type="text" name="EmailAdress"></div>
+              <div class="popup__password"> <p>Password</p>
+              <input class="popup__input" type="password" placeholder="" name="Password"></div></form>
+                <div class="popup__entry"><a class="popup__link popup__link--pass" href="#">Forgot password?</a>
+                    <button class="button authorization__button authorization__button--popup">Log in</button>
+                </div><div class="popup__sign-with">Or sign in with</div>
+               <div class="popup__buttons" > 
+                <button class="popup__button"><img src="./images/popup/google.svg" alt=""></button>
+                <button class="popup__button"><img src="./images/popup/facebook.svg" alt=""></button>
+                <button class="popup__button"><img src="./images/popup/apple.svg" alt=""></button></div>
+                <div class="popup__captcha"><p>Protected by reCAPTCHA and subject to the Google <a class="popup__link" href="#">Privacy Policy</a> and <a class="popup__link" href="#">Terms of Service</a></p></div>
+                </form>
+            </div>
+        </div>
+    </div>
     </div>
     <script src="/js/components/header.js"></script>
     <script src="/js/components/index_netflix/change_tariffs.js"></script>

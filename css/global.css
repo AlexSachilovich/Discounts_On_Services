@@ -12,12 +12,15 @@ html {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  overflow: hidden;
+}
+
+.mainWrapper {
+  margin-top: 60px;
 }
 
 .main {
   flex: 1 1 auto;
-  margin-top: 120px;
+  margin-top: 60px;
 }
 
 body {
