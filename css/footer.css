@@ -1,5 +1,6 @@
 .footer {
   background: var(--blue);
+  overflow: hidden;
 }
 
 .container--footer {
@@ -167,7 +168,7 @@
 .footer-contacts__sub-menu-language__list--active {
   transition: 1s;
   right: -90px;
-  top: -169.5px;
+  top: -90.5px;
 }
 
 .footer-contacts__sub-menu-language__item {

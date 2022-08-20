@@ -1,3 +1,6 @@
+.containerWrapper {
+  width: 100%;
+}
 .wrapper__tariffs {
   margin-top: 48px;
   margin-bottom: 16px;
@@ -159,6 +162,8 @@
 }
 
 .tariffs__title {
+  display: flex;
+  justify-content: center;
   font-family: "AlbertSans";
   font-style: normal;
   font-weight: 800;
@@ -226,9 +231,7 @@
 
 /* BASIC */
 
-/* STANDART */
-
-.wrapper__tariffs__block_standart {
+STANDART .wrapper__tariffs__block_standart {
   display: flex;
   position: relative;
   transition: 0.4s;

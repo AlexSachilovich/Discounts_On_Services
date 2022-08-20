@@ -1,9 +1,8 @@
+.containerWrapper {
+  width: 100%;
+}
 .wrapper__tariffs__spotify {
   margin-top: 0;
-}
-
-.tariffs__title__spotify {
-  padding: 60px 151px 32px 114px;
 }
 
 .tariffs__price__spotifeFamily {

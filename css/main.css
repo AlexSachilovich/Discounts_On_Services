@@ -15,6 +15,7 @@
 @import url("/css/components/netflix.css/main.css");
 @import url("./components/youtube/youtube.css");
 @import url("/css/components/spotify/spotify.css");
+@import url("./components/overlay/overlay.css");
 
 * {
   box-sizing: border-box;

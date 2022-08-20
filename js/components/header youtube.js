@@ -1,6 +1,6 @@
 const menubuttonHeaderDropdown = document.querySelector(".menu__link-dropdown");
 const popUpHeaderSubscriptions = document.querySelector(".sub-menu__list");
-const wrapper = document.querySelector(".mainWrapper");
+const wrapper = document.querySelector(".containerWrapper");
 
 menubuttonHeaderDropdown.addEventListener(
   "click",
