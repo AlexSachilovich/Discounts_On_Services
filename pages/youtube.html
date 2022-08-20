@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/main.css" />
-    <title>Spotify</title>
+    <link rel="stylesheet" href="/css/components/youtube/youtube.css">
+    <title>Youtube</title>
   </head>
 
   <body>
@@ -41,10 +42,7 @@
                       >
                     </li>
                     <li class="sub-menu__item">
-                      <a
-                        class="sub-menu__link"
-                        href="/pages/youtube.html"
-                        target="_blank"
+                      <a class="sub-menu__link" href="#" target="_blank"
                         >Youtube Premium</a
                       >
                     </li>
@@ -141,83 +139,53 @@
     <main class="main">
       <div class="wrapper__plan wrapper__plan__youtube">
         <div class="plan">
-          <div class="plan__title"><h1>Choose a Spotify Plan</h1></div>
+          <div class="plan__title"><h1>YouTube Premium</h1></div>
           <div class="plan__subtitle">
             <p>Select the subscription type for a period of 12 months:</p>
           </div>
         </div>
       </div>
-      <div class="wrapper__tariffs wrapper__tariffs__spotify">
-        <div class="tariffs tariffs__spotify">
+      <div class="wrapper__tariffs wrapper__tariffs__youtube">
+        <div class="tariffs tariffs__youtube">
           <div
-            class="wrapper__tariffs__block_standart wrapper__tariffs__block_standart--spotify-individual"
+            class="wrapper__tariffs__block_standart wrapper__tariffs__block_standart--youtube-music"
           >
-            <div class="tariffs__block tariffs__block_spotify_individual">
-              <div class="tariffs__title tariffs__title__spotify">
-                Individual
-              </div>
-              <div class="tariffs__list tariffs__list--spotify-individual">
-                <ul>
-                  <li class="tariffs__item">Ad-free music listening</li>
-                  <li class="tariffs__item">
-                    Play anywhere - even offline
-                  </li>
-                  <li class="tariffs__item">On-demand playback</li>
-                </ul>
-              </div>
-              <div class="tariffs__price">47</div>
-              <div class="wrapper__button__tariffs button__spotify-tariff-1">
-                <button class="button button__tariffs">Get started</button>
-              </div>
-            </div>
-          </div>
-          <div
-            class="wrapper__tariffs__block_standart wrapper__tariffs__block_standart--spotify-individual"
-          >
-            <div class="tariffs__block tariffs__block_spotify_individual">
-              <div class="tariffs__title tariffs__title__spotify">Duo</div>
-              <div class="tariffs__list tariffs__list--spotify-individual">
+            <div
+              class="tariffs__block tariffs__block_netflix_standart_6m tariffs__block_netflix_standart_6m--active"
+            >
+              <div class="tariffs__title">Music</div>
+              <div class="tariffs__list tariffs__list--youtube-music">
                 <ul>
                   <li class="tariffs__item">
-                    2 Premium accounts for a couple under one roof
-                  </li>
-                  <li class="tariffs__item">
-                    Ad-free music listening, play offline, on-demand
-                    playback
+                    Listen to music without ads, in the background and
+                    offline
                   </li>
                 </ul>
               </div>
-              <div class="tariffs__price">57</div>
-              <div class="wrapper__button__tariffs button__spotify-tariff-2">
-                <button class="button button__tariffs">Get started</button>
-              </div>
-            </div>
-          </div>
-          <div
-            class="wrapper__tariffs__block_standart wrapper__tariffs__block_standart--spotify-individual"
-          >
-            <div class="tariffs__block tariffs__block_spotify_individual">
-              <div class="tariffs__title tariffs__title__spotify">
-                Family
-              </div>
-              <div class="tariffs__list tariffs__list--spotify-individual">
-                <ul>
-                  <li class="tariffs__item">
-                    6 Premium accounts for family members living under one
-                    roof
-                  </li>
-                  <li class="tariffs__item">Block explicit music</li>
-                  <li class="tariffs__item">
-                    Ad-free music listening, play offline, on-demand
-                    playback
-                  </li>
-                </ul>
-              </div>
-              <div class="tariffs__price tariffs__price__spotifeFamily">
-                77
-              </div>
+              <div class="tariffs__price">60</div>
               <div class="wrapper__button__tariffs">
-                <button class="button button__tariffs button__spotify-tariff-3">Get started</button>
+                <button class="button button__tariffs button__youtube-tariff-1">Get started</button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="wrapper__tariffs__block_premium wrapper__tariffs__block_premium--youtube-premium"
+          >
+            <div
+              class="tariffs__block tariffs__block_netflix_premium_6m tariffs__block_netflix_premium_6m--active"
+            >
+              <div class="tariffs__title tariffs__title-p">Premium</div>
+              <div class="tariffs__list tariffs__list--youtube-premium">
+                <ul>
+                  <li class="tariffs__item">
+                    YouTube and YouTube Music without ads, in the background
+                    and offline
+                  </li>
+                </ul>
+              </div>
+              <div class="tariffs__price">80</div>
+              <div class="wrapper__button__tariffs">
+                <button class="button button__tariffs button__youtube-tariff-11">Get started</button>
               </div>
             </div>
           </div>
@@ -434,7 +402,7 @@
                 <div
                   class="fotter-contacts__networks__item fotter-contacts__networks__item--telegram"
                 >
-                  <a href="https://t.me/DiscountsOnServices_bot" target="_blank""
+                  <a href="https://t.me/DiscountsOnServices_bot" target="_blank"
                     ><img
                       src="/images/footer/footer_telegram.png"
                       alt="telegram"
@@ -522,19 +490,19 @@
                     <button class="button authorization__button authorization__button--popup">Log in</button>
                 </div><div class="popup__sign-with">Or sign in with</div>
                <div class="popup__buttons" > 
-                <button class="popup__button"><img src="/images/popup/google.svg" alt="google"></button>
-                <button class="popup__button"><img src="/images/popup/facebook.svg" alt="facebook"></button>
-                <button class="popup__button"><img src="/images/popup/apple.svg" alt="apple"></button></div>
+                <button class="popup__button"><img src="/images/popup/google.svg" alt=""></button>
+                <button class="popup__button"><img src="/images/popup/facebook.svg" alt=""></button>
+                <button class="popup__button"><img src="/images/popup/apple.svg" alt=""></button></div>
                 <div class="popup__captcha"><p>Protected by reCAPTCHA and subject to the Google <a class="popup__link" href="#">Privacy Policy</a> and <a class="popup__link" href="#">Terms of Service</a></p></div>
                 </form>
             </div>
         </div>
     </div>
     </div>
-    <script src="/js/components/header spotify.js"></script>
+    <script src="/js/components/header youtube.js"></script>
     <script src="/js/components/index_netflix/change_tariffs.js"></script>
     <script src="/js/components/faq.js"></script>
     <script src="/js/components/footer_menu_dropdown.js"></script>
-    <script src="/js/components/overlay spotify.js" ></script>
+    <script src="/js/components/overlay youtube.js" ></script>
   </body>
 </html>
