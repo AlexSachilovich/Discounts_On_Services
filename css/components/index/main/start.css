@@ -1,86 +1,79 @@
 .start {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 120px;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  margin-bottom: 120px;
 }
 
 .description {
-    width: 592px;
-    height: 500px;
-    background: var(--blue);
-    border-radius: 32px;
+  width: 592px;
+  height: 500px;
+  background: var(--blue);
+  border-radius: 32px;
 }
 
 .description__title {
-font-family: 'AlbertSans';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 140%;
-color: #FFFFFF;
-margin: 114px 60px 24px 60px;
+  font-family: "AlbertSans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 140%;
+  color: #ffffff;
+  margin: 114px 60px 24px 60px;
 }
 
 .description__subtitle {
-font-family: 'AlbertSans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-color: #FFFFFF;
-margin: 0 60px 40px 60px ;
-opacity: .7;
+  font-family: "AlbertSans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  margin: 0 60px 40px 60px;
+  opacity: 0.7;
 }
-
-
 
 .button--start {
-font-family: 'AlbertSans';
-font-style: normal;
-font-weight: 700;
-font-size: 17px;
-line-height: 130%;
-color: #171717;
-background:#FFFFFF;
-border-radius: 16px;
-padding: 16px 56.5px;
-margin: 0 0 113px 60px;
+  font-family: "AlbertSans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 130%;
+  color: #171717;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 16px 56.5px;
+  margin: 0 0 113px 60px;
 }
 
-
 .button--start:hover {
-    background: var(--blue);
-    color: #FFFFFF;
-    transition: 0.4s;
-    border: #FFFFFF 1px solid;
+  background: var(--blue);
+  color: #ffffff;
+  transition: 0.4s;
+  border: #ffffff 1px solid;
 }
 
 .button--start:active {
-    background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.8);
 }
 
-
 .product {
-    width: 592px;
-    height: 500px;
-    border-radius: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background:#FFFFFF;;
+  width: 592px;
+  height: 500px;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
 }
 
 .product__img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .product__img:hover {
-    transform: scale(1.1, 1.1);
-    transition: 0.9s;
+  transform: scale(1.1, 1.1);
+  transition: 0.9s;
 }
-
-/* .subscription__img:hover {
-    transform: scale(1.1, 1.1);
-    transition: 0.9s;
-} */

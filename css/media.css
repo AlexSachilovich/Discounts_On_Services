@@ -1,0 +1,136 @@
+@media (max-width: 1040px) {
+  #social-networks {
+    display: none;
+  }
+  #span {
+    font-size: 15px;
+    padding: 20px 5px 10px 5px;
+  }
+  .invite__link {
+    font-size: 16px;
+  }
+  #invite__link {
+    font-size: 20px;
+  }
+  #invite__title {
+    font-style: 18px;
+  }
+
+  #invite__title {
+    display: none;
+  }
+  #invite__subtitle {
+    display: none;
+  }
+  .invite {
+    justify-content: center;
+  }
+  #authorization {
+    display: none;
+  }
+  #header-aside {
+    display: none;
+  }
+  #header-inner {
+    justify-content: space-around;
+  }
+  .wrapper__information {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #information__picture {
+    justify-content: center;
+    margin: 0 auto;
+  }
+  #information {
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  #steps {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .steps__item {
+    margin-bottom: 16px;
+  }
+  #additional-subscription {
+    display: none;
+  }
+  #wrapper__subscriptions {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #subscription__item {
+    min-width: 350px;
+    order: 2;
+  }
+  #subscription {
+    order: 2;
+    flex-wrap: wrap;
+    margin-bottom: 400px;
+    background: #ecf3fb;
+    justify-content: center;
+  }
+  #subscription__logo--netflix {
+    order: 1;
+    margin: 0 0 0 0;
+  }
+  #subscription__logo--spotify {
+    order: 1;
+
+    margin: 0 0 0 0;
+  }
+  #subscription__logo--youTube {
+    order: 1;
+
+    margin: 0 0 0 0;
+  }
+}
+
+@media (max-width: 768px) {
+  #span__invite {
+    font-size: 15px;
+    padding: 30px 2px 6px 2px;
+  }
+
+  .invite__link {
+    font-size: 11px;
+  }
+  #invite__link {
+    font-size: 15px;
+  }
+  #invite__title {
+    font-style: 13px;
+  }
+  #menu {
+    display: none;
+  }
+  #header-inner {
+    justify-content: start;
+  }
+  #container__header {
+    width: 0;
+    margin: 0;
+  }
+  #header {
+    width: 100%;
+  }
+
+  .wrapperMobileHeader {
+    display: flex;
+  }
+
+  #button__mobil {
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+  }
+}
+
+@media (max-width: 375px) {
+  #product {
+    display: none;
+    min-width: 375px;
+  }
+}
